@@ -1,0 +1,15 @@
+.audio-player {
+    background-color: rgb(233, 231, 231);
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+.player-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px;
+    color: #5F5D5D;
+}
+audio {
+    margin: 10px;
+}
