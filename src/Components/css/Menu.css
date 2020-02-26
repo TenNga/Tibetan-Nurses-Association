@@ -1,0 +1,28 @@
+
+@media only screen and (max-width: 600px) {
+    .menu-ls{
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        z-index: 2;
+        list-style: none;
+        width: 100vw;
+        height: 70vh;
+        background-color: #4E5F90;
+    }
+    .menu-ls li{
+        font-family: 'Rubik';
+        font-size: 30px;
+        line-height: 2.3;
+        border-top: 1px solid rgba(128, 128, 128, 0.493);
+    }
+
+
+    .burger div{
+        margin-bottom: 7px;
+        border: 2px solid #E9E4E4;
+        width: 30px;
+    }
+
+}
