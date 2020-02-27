@@ -1,14 +1,15 @@
 import React from 'react';
 import './css/FooterSection.css';
 
-const FooterSection = () => {
+const FooterSection = (props) => {
+    const handleSubHeader = () => {
+        return props.sectionData.subHeader.map(subHeader => <h4>{subHeader}</h4>)
+    }
     return(
         <div className="footer-section">
-            <h1>about us</h1>
+            <h1>{props.sectionData.header}</h1>
             <div className="footer-subsection">
-                <h4>our mission</h4>
-                <h4>members</h4>
-                <h4>other branches</h4>
+               {handleSubHeader()}
             </div>
         </div>
     )
