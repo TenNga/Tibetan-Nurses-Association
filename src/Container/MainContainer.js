@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '../Components/Carousel';
+import CarouselSlider from '../Components/CarouselSlider';
 import WelcomeNote from '../Components/WelcomeNote';
 import AudioPlayer from '../Components/AudioPlayer';
 import WhatWeDo from './WhatWeDo';
@@ -7,7 +7,7 @@ import WhatWeDo from './WhatWeDo';
 const MainContainer = () => {
     return(
         <>
-        <Carousel />
+        <CarouselSlider />
         <WelcomeNote />
         <AudioPlayer />
         <WhatWeDo />
