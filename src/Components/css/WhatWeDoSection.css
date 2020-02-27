@@ -1,0 +1,38 @@
+.section{
+    margin: 0px 20px;
+    text-align: left;
+    font-family: 'Rubik';
+}
+.section img{
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+    box-shadow: 1px 1px  5px grey
+}
+
+.section h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #3D4C7A;
+    margin: 10px 0px;
+}
+
+.section h4{
+    font-weight: normal;
+    font-style: italic;
+    margin: 5px 0px;
+    color: black;
+}
+
+.section p {
+    color: #726E6E;
+}
+
+.section a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2177F8;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 10px 0px;
+}
