@@ -1,0 +1,9 @@
+.single-member {
+    margin: 5px;
+}
+.single-member img{
+    max-width: 150px;
+}
+.single-member h6 {
+    font-style: italic;
+}

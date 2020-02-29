@@ -9,3 +9,9 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
+.board-member .member-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
