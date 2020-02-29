@@ -1,3 +1,7 @@
+.board-member {
+    background-color: rgba(128, 128, 128, 0.274);
+    padding: 20px 0px;
+}
 .board-member #header{
     text-transform: capitalize;
     color: #3D4C7A;
