@@ -1,0 +1,11 @@
+.board-member #header{
+    text-transform: capitalize;
+    color: #3D4C7A;
+    font-size: 34px;
+}
+
+.board-member #sub-header {
+    color: #3D4C7A;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
