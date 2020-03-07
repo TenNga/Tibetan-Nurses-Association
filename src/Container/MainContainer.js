@@ -1,14 +1,16 @@
 import React from 'react';
 import Home from './Home';
 import AboutUs from './AboutUs';
+import Gallery from './Gallery';
 import Footer from './Footer';
 
 const MainContainer = () => {
     return(
         <>
         {/* <Home /> */}
-        <AboutUs />
-        <Footer />
+        <Gallery />
+        {/* <AboutUs /> */}
+            <Footer />
         </>
     )
 }
