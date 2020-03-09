@@ -22,7 +22,7 @@ const menu = () => {
         <ul className="menu-ls">
             <li>Home</li>
             <li>About Us</li>
-            <li>Gallery</li>
+            <li>Resources</li>
             <li>Events</li>
             <li>Educational</li>
             <li>Member</li>
