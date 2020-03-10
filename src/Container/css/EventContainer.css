@@ -1,0 +1,12 @@
+.event-section-container h1 {
+    color: #3D4C7A;
+}
+
+.event-section-container h4 {
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.event-section-container {
+    margin-top: 30px;
+}

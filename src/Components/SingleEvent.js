@@ -1,12 +1,15 @@
 import React from 'react';
+import './css/SingleEvent.css';
  
-const SingleEvent = () => {
+const SingleEvent = ({data}) => {
+    console.log("Single Data: ", data)
     return(
+        
         <div className="single-event-container">
-            <img src="nurses.jpg" />
-            <h3>Event Header</h3>
-            <p>Month xxth - month xxth</p>
-            <p>Description asdfajsdflajsdlfaslkdfjlskdjflkasjfflkasdflkasdlkfnsaldkfnn f nmlkasndvoiejflk snflanfanv nzxs;ldkfn ao;knfl;zsndv;alnv ;lnsdfokans;</p>
+            <img src={data.img} />
+            <h3>{data.title}</h3>
+            <p id="duration">{data.duration}</p>
+            <p id="description">{data.description}</p>
         </div>
     )
 }
