@@ -27,7 +27,6 @@ const menu = () => {
             <li>Educational</li>
             <li>Member</li>
             <li>Contact</li>
-            <li>Menu</li>
         </ul>
 
         </>
