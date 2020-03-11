@@ -1,0 +1,16 @@
+.modal-video{
+    background-color: rgba(63, 62, 62, 0.815);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.modal-video-inner {
+ margin: 20vh 0px;
+}
+
+.modal-video-movie-wrap{
+    width: 100vw;
+}
