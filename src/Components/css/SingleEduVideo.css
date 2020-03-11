@@ -1,16 +1,10 @@
-.modal-video{
-    background-color: rgba(63, 62, 62, 0.815);
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+.single-video-container img {
+    object-fit: contain;
+    width: 150px;
 }
 
-.modal-video-inner {
- margin: 20vh 0px;
-}
-
-.modal-video-movie-wrap{
-    width: 100vw;
+.single-video-container #title {
+    color: rgb(80, 107, 190);
+    text-transform: capitalize;
 }

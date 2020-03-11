@@ -1,0 +1,5 @@
+.video-container {
+    margin: 20px 20px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
