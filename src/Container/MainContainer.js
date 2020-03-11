@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Event from './Event';
+import Educational from './Educational';
 import Footer from './Footer';
 
 const MainContainer = () => {
@@ -9,8 +10,9 @@ const MainContainer = () => {
         <>
         {/* <Home /> */}
         {/* <AboutUs /> */}
-        <Event />
-            <Footer />
+        {/* <Event /> */}
+        <Educational />
+        <Footer />
         </>
     )
 }
