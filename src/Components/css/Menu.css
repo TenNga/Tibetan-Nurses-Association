@@ -20,8 +20,11 @@
         
     }
 
+   
 
     .burger div{
+        position: relative;
+        right: 0;
         margin-bottom: 7px;
         border: 2px solid #E9E4E4;
         width: 30px;

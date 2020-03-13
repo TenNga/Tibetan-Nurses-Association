@@ -1,4 +1,6 @@
 import React from 'react';
+import Uniqid from 'uniqid';
+
 import './css/Footer.css';
 import FooterSection from '../Components/FooterSection';
 
@@ -10,7 +12,7 @@ const Footer = () => {
     ]
 
     const handleFooterSection = () => {
-       return footerData.map(data => <FooterSection sectionData={data} /> )
+       return footerData.map(data => <FooterSection sectionData={data}  key={Uniqid()}/> )
     }
     return(
         <div className="footer-container">

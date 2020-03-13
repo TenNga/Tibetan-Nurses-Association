@@ -15,9 +15,9 @@ const menu = () => {
     return(
         <>
         <div className="burger" onClick={burgerOnClickHandler}>
-            <div></div>
-            <div></div>
-            <div></div> 
+            <div className="cross-one"></div>
+            <div className="cross-middle"></div>
+            <div className="cross-two"></div> 
         </div>
         
         <ul className="menu-ls">

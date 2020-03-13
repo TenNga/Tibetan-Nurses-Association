@@ -1,4 +1,6 @@
 import React from 'react';
+import uniqid from 'uniqid';
+
 import SingleEduVideo from '../Components/SingleEduVideo';
 import './css/EducationalContainer.css';
 
@@ -43,7 +45,7 @@ const EducationalContainer = () => {
 ]
 
     const renderVideo = () => {
-        return videoData.map(d => <SingleEduVideo data = {d} />)
+        return videoData.map(d => <SingleEduVideo data = {d}  key={uniqid()} />)
     }
     return(
         <div className="video-container">

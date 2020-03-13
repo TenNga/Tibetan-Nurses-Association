@@ -1,4 +1,6 @@
 import React from 'react';
+import uniqid from 'uniqid';
+
 import './css/AboutUs.css';
 
 import AboutTNA from '../Components/WelcomeNote';
@@ -25,7 +27,7 @@ const AboutUs = () => {
         {img: "Kundhen.jpg", name: "Kundhen", position: "Nursing Edu. Outreach Coordinator"},]
 
     const handleMemberInfo = () => {
-        return memberInfo.map(member => <SingleMember memberInfo={member} />)
+        return memberInfo.map(member => <SingleMember memberInfo={member}  key={uniqid()}/>)
     }
     return(
         <div className="about-container">

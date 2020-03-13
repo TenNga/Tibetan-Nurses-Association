@@ -1,12 +1,14 @@
 import React from 'react';
+import uniqid from 'uniqid';
 import SingleEvent from '../Components/SingleEvent';
+
 
 import './css/EventContainer.css';
 
 const EventContainer = ({eventYear,eventData}) => {
 
     const renderEvent = () => {
-        return eventData.map(e => <SingleEvent data={e} />)
+        return eventData.map(e => <SingleEvent data={e}  key={uniqid()}/>)
     }
 
     return(

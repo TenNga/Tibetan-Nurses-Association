@@ -1,4 +1,6 @@
 import React from 'react';
+import uniqid from 'uniqid';
+
 import './css/WhatWeDo.css';
 
 import WhatToDoSection from '../Components/WhatWeDoSection';
@@ -24,7 +26,7 @@ const WhatWeDo = () => {
         link: "https://www.tibetannurses.org/"}
     ]
     const handleSection = () =>{
-        return sectionData.map(data => <WhatToDoSection sectionData = {data} />)
+        return sectionData.map(data => <WhatToDoSection sectionData = {data}  key={uniqid()}/>)
     }
     return(
         <div className="what-to-do">
