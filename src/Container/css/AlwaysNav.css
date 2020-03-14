@@ -1,0 +1,19 @@
+.always-nav-container {
+    width: 100vw;
+    color: rgb(245, 243, 243);
+    background-color: #4E5F90;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+}
+
+.footer-nav h4{
+    margin-top: 5px;
+    font-size: 30px;
+}

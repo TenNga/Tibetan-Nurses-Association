@@ -6,6 +6,7 @@ import AboutUs from './AboutUs';
 import Event from './Event';
 import Educational from './Educational';
 import Footer from './Footer';
+import AlwaysNav from './AlwaysNav';
 
 const MainContainer = () => {
     return(
@@ -21,6 +22,7 @@ const MainContainer = () => {
         {/* <Event /> */}
         {/* <Educational /> */}
         <Footer />
+        <AlwaysNav />
         </>
     )
 }
