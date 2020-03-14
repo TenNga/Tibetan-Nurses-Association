@@ -25,11 +25,15 @@ class Member extends React.Component {
         e.preventDefault();
         const successMsg = document.querySelector('.submit-success')
         successMsg.style.display = "block"
+        const body = document.querySelector('body');
+        body.style.overflow = "hidden"
     }
 
     handleClose = () => {
         const successMsg = document.querySelector('.submit-success')
         successMsg.style.display = "none"
+        const body = document.querySelector('body');
+        body.style.overflow = "scroll"
         this.setState({name: "", email: ""})
     }
     render(){
