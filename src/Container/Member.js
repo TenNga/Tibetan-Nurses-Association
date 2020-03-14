@@ -1,4 +1,5 @@
 import React from 'react';
+import './css/Member.css'
 
 class Member extends React.Component {
     handleSubmit = (e) => {
@@ -14,7 +15,7 @@ class Member extends React.Component {
                 <form onSubmit={this.handleSubmit}>
                     <input type="text" name="member-name" placeholder="NAME" />
                     <input type="text" name="member-email" placeholder="EMAIL" />
-                    <input type="submit" value="NEXT" />
+                    <input id="submit-btn" type="submit" value="NEXT" />
                 </form>
             </div>
         )
