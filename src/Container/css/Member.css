@@ -44,3 +44,23 @@ input {
     font-family: 'Rubik';
     margin-bottom: 60px;
 }
+
+.submit-success {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(44, 26, 77, 0.651);
+}
+
+.success-msg {
+    vertical-align: middle;
+}
+
+.success-msg h1 { 
+    color: white;
+    margin: auto 0px;
+    
+}
