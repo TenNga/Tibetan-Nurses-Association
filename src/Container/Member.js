@@ -23,7 +23,14 @@ class Member extends React.Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        alert("Your name: " + this.state.name)
+        const successMsg = document.querySelector('.submit-success')
+        successMsg.style.display = "block"
+    }
+
+    handleClose = () => {
+        const successMsg = document.querySelector('.submit-success')
+        successMsg.style.display = "none"
+        this.setState({name: "", email: ""})
     }
     render(){
         console.log("State: ", this.state)
@@ -39,8 +46,9 @@ class Member extends React.Component {
                 </form>
                 <div className="submit-success">
                     <div className="success-msg">
-                        <h1>Next Step: Check you email and follow instruction on it.</h1>
-                        <button>close</button>
+                        <h1>Next Step</h1>
+                        <h2> Check you email and follow instruction on it.</h2>
+                        <button onClick={this.handleClose}>close</button>
                     </div>
                 </div>
             </div>
