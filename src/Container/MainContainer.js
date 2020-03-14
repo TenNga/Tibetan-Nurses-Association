@@ -7,6 +7,7 @@ import Event from './Event';
 import Educational from './Educational';
 import Footer from './Footer';
 import AlwaysNav from './AlwaysNav';
+import Member from './Member';
 
 const MainContainer = () => {
     return(
@@ -15,6 +16,7 @@ const MainContainer = () => {
             <Route path="/about" component={AboutUs} />
             <Route path="/events" component={Event} />
             <Route path="/educational" component={Educational} />
+            <Route path="/member" component={Member} />
             <Route path="/" component={Home} />
         </Switch>
         {/* <Home /> */}
