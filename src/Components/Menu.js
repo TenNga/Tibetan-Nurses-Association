@@ -21,13 +21,13 @@ const menu = () => {
         </div>
         
         <ul className="menu-ls">
-            <Link to={"/"} ><li onClick={burgerOnClickHandler}>Home</li> </Link>
-            <Link to={"/about"} ><li onClick={burgerOnClickHandler}>About Us</li> </Link>
-            <Link to={"/resources"} ><li onClick={burgerOnClickHandler}>Resources</li> </Link>
-            <Link to={"/events"} ><li onClick={burgerOnClickHandler}>Events</li> </Link>
-            <Link to={"/educational"} ><li onClick={burgerOnClickHandler}>Educational</li> </Link>
-            <Link to={"/member"} ><li onClick={burgerOnClickHandler}>Member</li> </Link>
-            <Link to={"/contact"} ><li onClick={burgerOnClickHandler}>Contact</li> </Link>
+            <Link to={"/"} ><li>Home</li> </Link>
+            <Link to={"/about"} ><li>About Us</li> </Link>
+            <Link to={"/resources"} ><li>Resources</li> </Link>
+            <Link to={"/events"} ><li>Events</li> </Link>
+            <Link to={"/educational"} ><li>Educational</li> </Link>
+            <Link to={"/member"} ><li>Member</li> </Link>
+            <Link to={"/contact"} ><li>Contact</li> </Link>
         </ul>
 
         </>
