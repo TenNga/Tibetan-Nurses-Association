@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+import './css/MainContainer.css';
 
 import Home from './Home';
 import AboutUs from './AboutUs';
@@ -11,21 +12,17 @@ import Member from './Member';
 
 const MainContainer = () => {
     return(
-        <>
-        <Switch>
-            <Route path="/about" component={AboutUs} />
-            <Route path="/events" component={Event} />
-            <Route path="/educational" component={Educational} />
-            <Route path="/member" component={Member} />
-            <Route path="/" component={Home} />
-        </Switch>
-        {/* <Home /> */}
-        {/* <AboutUs /> */}
-        {/* <Event /> */}
-        {/* <Educational /> */}
-        <Footer />
-        <AlwaysNav />
-        </>
+        <div className="main-middle-container">
+            <Switch>
+                <Route path="/about" component={AboutUs} />
+                <Route path="/events" component={Event} />
+                <Route path="/educational" component={Educational} />
+                <Route path="/member" component={Member} />
+                <Route path="/" component={Home} />
+            </Switch>
+            <Footer />
+            <AlwaysNav />
+        </div>
     )
 }
 

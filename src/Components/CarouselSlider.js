@@ -6,18 +6,24 @@ import { Carousel } from 'react-responsive-carousel';
 const CarouselSlider = () => {
     return(
         <div className="carousel">
-            <Carousel showThumbs={false} autoPlay={true} showStatus={false} swipeable={true}>
-                <div>
-                    <h3 className="legend">TNA helps</h3>
-                    <img className="c-img" src="nurses.jpg" />
+            <Carousel 
+                showThumbs={false} 
+                autoPlay={true} 
+                showStatus={false} 
+                swipeable={true}
+                infiniteLoop={true}
+            >
+                <div className="carousel-content">
+                    <button className="legend">Community Health Fair 2019</button>
+                    <img className="c-img" src="community.jpg" />
                 </div>
-                <div>
-                    <h3 className="legend">TNA helps</h3>
-                    <img className="c-img" src="nurses.jpg" />
+                <div className="carousel-content">
+                    <button className="legend">Our YouTube Channel</button>
+                    <img className="c-img" src="youtube.jpg" />
                 </div>
-                <div>
-                    <h3 className="legend">TNA helps</h3>
-                    <img className="c-img" src="nurses.jpg" />
+                <div className="carousel-content">
+                    <button className="legend">About TNA</button>
+                    <img className="c-img" src="about.jpg" />
                 </div>
             </Carousel>
             
