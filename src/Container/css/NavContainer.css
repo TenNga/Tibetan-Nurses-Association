@@ -21,6 +21,7 @@
 
 @media only screen and (max-width: 600px) {
     .nav-container {
+        margin: 0px;
         background-color: #4E5F90;
         color: white;
         display: flex;
