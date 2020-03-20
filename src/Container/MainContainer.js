@@ -12,14 +12,17 @@ import Member from './Member';
 
 const MainContainer = () => {
     return(
-        <div className="main-middle-container">
-            <Switch>
-                <Route path="/about" component={AboutUs} />
-                <Route path="/events" component={Event} />
-                <Route path="/educational" component={Educational} />
-                <Route path="/member" component={Member} />
-                <Route path="/" component={Home} />
-            </Switch>
+        <div>
+            <div className="main-middle-container">
+                <Switch>
+                    <Route path="/about" component={AboutUs} />
+                    <Route path="/events" component={Event} />
+                    <Route path="/educational" component={Educational} />
+                    <Route path="/member" component={Member} />
+                    <Route path="/" component={Home} />
+                </Switch>
+                
+            </div>
             <Footer />
             <AlwaysNav />
         </div>
