@@ -1,15 +1,19 @@
 .audio-player {
     background-color: rgb(233, 231, 231);
-    margin: 0px 20px;
+    margin: 0px 20vw;
     border-radius: 10px;
+    font-family: 'Rubik';
 }
 .player-header {
     font-size: 24px;
     font-weight: bold;
     text-decoration: underline;
     margin: 10px;
-    color: #5F5D5D;
+    color: rgb(78, 78, 80);
 }
 audio {
     margin: 10px;
+    width: 600px;
+    border-radius: 30px;
+    border: 2px solid rgb(124, 120, 172);
 }
