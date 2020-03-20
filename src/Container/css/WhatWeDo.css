@@ -4,3 +4,15 @@
     color: #3D4D7A;
     border-bottom: 2px solid #9CAFE2;
 }
+
+.what-we-do-container {
+    display: flex;
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .what-we-do-container {
+        display: block;
+        margin: 0px;
+    }
+}

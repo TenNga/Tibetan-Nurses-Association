@@ -29,9 +29,11 @@ const WhatWeDo = () => {
         return sectionData.map(data => <WhatToDoSection sectionData = {data}  key={uniqid()}/>)
     }
     return(
-        <div className="what-to-do">
+        <div className="what-we-do">
             <h1 className="header">What We Do</h1>
-            {handleSection()}
+            <div className="what-we-do-container">
+                {handleSection()}
+            </div>
         </div>
     )
 }

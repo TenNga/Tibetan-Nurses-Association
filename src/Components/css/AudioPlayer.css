@@ -13,7 +13,20 @@
 }
 audio {
     margin: 10px;
-    width: 600px;
+    width: 400px;
     border-radius: 30px;
     border: 2px solid rgb(124, 120, 172);
+}
+
+@media only screen and (max-width: 600px) {
+    .audio-player {
+        margin: 10px;
+    }
+
+    audio {
+        margin: 10px;
+        width: 300px;
+        border-radius: 30px;
+        border: 2px solid rgb(124, 120, 172);
+    }
 }
