@@ -5,8 +5,8 @@
 
 .nav-container {
     display: flex;
-    margin: 0px 10vw;
-    justify-content: space-around;
+    margin: 0px 5vw;
+    justify-content: space-between;
     
 }
 
