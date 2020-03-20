@@ -1,7 +1,7 @@
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    padding: 0px 200px;
     background-color: #4E5F90;
     font-family: "Rubik";
     line-height: 2;
