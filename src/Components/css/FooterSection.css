@@ -23,5 +23,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    
+    .footer-section {
+        text-align: center;
+    }
 }
