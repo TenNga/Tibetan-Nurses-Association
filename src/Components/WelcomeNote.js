@@ -12,7 +12,8 @@ const WelcomeNote = (props) => {
                     <p className="welcome-para">{props.data.para}</p>
                     <Link to={"/about"}> <button>Learn More</button> </Link>    
                 </div>
-                <img src="home_aboutTNA.jpg" />
+                {props.source === "about"? null : <img src="home_aboutTNA.jpg" /> }
+                
             </div>
            
         </div>

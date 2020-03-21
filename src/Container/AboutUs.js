@@ -32,7 +32,7 @@ const AboutUs = () => {
     return(
         <div className="about-container">
             <div className="history">
-                <AboutTNA data={aboutData} />
+                <AboutTNA data={aboutData} source={"about"} />
             </div>
             <div className="board-member">
                 <h2 id="header">board members</h2>

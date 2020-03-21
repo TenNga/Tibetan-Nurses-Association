@@ -1,6 +1,8 @@
 .board-member {
-    background-color: rgba(128, 128, 128, 0.274);
+    background-color: rgba(190, 195, 219, 0.274);
     padding: 20px 0px;
+    margin: 10px 0px;
+    border-radius: 6px;
 }
 .board-member #header{
     text-transform: capitalize;
@@ -16,6 +18,15 @@
 
 .board-member .member-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
     
+    .board-member .member-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
