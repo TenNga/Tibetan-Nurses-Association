@@ -6,6 +6,8 @@ import SingleEvent from '../Components/SingleEvent';
 import './css/EventContainer.css';
 
 const EventContainer = ({eventYear,eventData}) => {
+    
+    //render Event single
 
     const renderEvent = () => {
         return eventData.map(e => <SingleEvent data={e}  key={uniqid()}/>)
