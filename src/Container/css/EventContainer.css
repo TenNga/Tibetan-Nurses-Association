@@ -6,3 +6,16 @@
     font-weight: lighter;
     font-size: 22px;
 }
+
+.all-event-container {
+    margin: 0px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+    .all-event-container {
+        display: block;
+        margin: 0px;
+    }
+}
