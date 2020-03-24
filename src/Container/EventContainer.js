@@ -15,7 +15,7 @@ const EventContainer = ({eventYear,eventData}) => {
 
     return(
         <div className="event-section-container">
-            <h1>{eventYear} Event Page</h1>
+            <h1>{eventYear} Event</h1>
             <h4>Tibetan Nurses Assocation</h4>
             <div className="all-event-container">
                {renderEvent()}
