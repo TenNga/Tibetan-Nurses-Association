@@ -4,7 +4,7 @@ import './css/AudioPlayer.css';
 const AudioPlayer = () => {
     return(
         <div className="audio-player">
-            <p className="player-header">Latest Health Talk</p>
+            <h4 className="player-header">Latest Health Talk</h4>
             <audio controls>
                 <source src="audioTest.mp3" type="audio/mpeg" />
             </audio>

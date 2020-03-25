@@ -8,11 +8,11 @@
     font-size: 24px;
     font-weight: bold;
     text-decoration: underline;
-    margin: 10px;
+    padding-top: 20px;
     color: rgb(78, 78, 80);
 }
 audio {
-    margin: 10px;
+    margin: 30px 10px;
     width: 400px;
     border-radius: 30px;
     border: 2px solid rgb(124, 120, 172);
