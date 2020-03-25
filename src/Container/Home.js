@@ -4,6 +4,8 @@ import WelcomeNote from '../Components/WelcomeNote';
 import AudioPlayer from '../Components/AudioPlayer';
 import WhatWeDo from './WhatWeDo';
 
+import './css/Home.css';
+
 class Home extends React.Component {
 
     
@@ -11,9 +13,19 @@ class Home extends React.Component {
             scrollY: ""
         }
 
-        componentDidMount() {
+        componentDidMount = () =>{
             window.addEventListener('scroll',()=> this.setState({scrollY: window.scrollY}))
         }
+        audioDisplay = () => {
+            const audioPlayer = document.querySelector('.audio-player');
+            audioPlayer.style.visibility = "visible";
+        }
+        WhatWeDoDisplay = () => {
+            const WhatWeDo = document.querySelector('.what-we-do');
+            WhatWeDo.style.visibility = "visible";
+        }
+
+
     render(){
         console.log("Y Position: ", this.state.scrollY)
         const homeWelcomeData = {
@@ -25,8 +37,11 @@ class Home extends React.Component {
                 <>
                     <CarouselSlider />
                     <WelcomeNote data={homeWelcomeData}/>
-                    {this.state.scrollY >= 100? <AudioPlayer /> : null }
-                    {this.state.scrollY >= 1000? <WhatWeDo /> : null }
+                    <AudioPlayer class="audio-player" /> 
+                    <WhatWeDo class="what-we-do"/> 
+                    {parseInt(this.state.scrollY) >= 50? this.audioDisplay(): null}
+                    
+                    {this.state.scrollY >= 408? this.WhatWeDoDisplay(): null }
                     
                 </>
         )
