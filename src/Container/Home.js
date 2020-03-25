@@ -18,11 +18,13 @@ class Home extends React.Component {
         }
         audioDisplay = () => {
             const audioPlayer = document.querySelector('.audio-player');
-            audioPlayer.style.visibility = "visible";
+            audioPlayer.style.opacity = "1";
+            audioPlayer.style.transition = "opacity .8s ease-in-out"
         }
         WhatWeDoDisplay = () => {
             const WhatWeDo = document.querySelector('.what-we-do');
-            WhatWeDo.style.visibility = "visible";
+            WhatWeDo.style.opacity = "1";
+            WhatWeDo.style.transition = "opacity .8s ease-in-out"
         }
 
 

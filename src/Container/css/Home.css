@@ -1,7 +1,7 @@
 .audio-player {
-    visibility:hidden;
+    opacity: 0;
 }
 
 .what-we-do {
-    visibility: hidden;
+    opacity: 0;
 }

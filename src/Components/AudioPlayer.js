@@ -1,7 +1,11 @@
 import React from 'react';
 import './css/AudioPlayer.css';
+import gsap from 'gsap';
 
 const AudioPlayer = () => {
+
+    
+
     return(
         <div className="audio-player">
             <h4 className="player-header">Latest Health Talk</h4>
