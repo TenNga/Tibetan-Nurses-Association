@@ -23,7 +23,6 @@ const menu = () => {
         <ul className="menu-ls">
             <Link to={"/"} ><li>Home</li> </Link>
             <Link to={"/about"} ><li>About Us</li> </Link>
-            <Link to={"/resources"} ><li>Resources</li> </Link>
             <Link to={"/events"} ><li>Events</li> </Link>
             <Link to={"/educational"} ><li>Educational</li> </Link>
             <Link to={"/member"} ><li>Member</li> </Link>
