@@ -1,16 +1,21 @@
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0px 200px;
+    padding: 0px 5%;
     background-color: #4E5F90;
     font-family: "Rubik";
     line-height: 2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
 }
 
 @media only screen and (max-width: 600px) {
     .footer-container {
         display: block;
         padding: 0px;
+        position: relative;
     }
     
 }

@@ -25,3 +25,23 @@
 .contact-info {
     line-height: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-container {
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-sub-container h2 {
+        font-size: 16px;
+    }
+
+    .contact-sub-container {
+        border-style: none;
+        border-bottom: 2px solid rgb(228, 230, 235);;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+    
+}
