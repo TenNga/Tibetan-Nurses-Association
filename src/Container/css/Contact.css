@@ -1,0 +1,27 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 14vh 10vw;
+    padding: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.contact-sub-container {
+    border-right: 2px solid rgb(228, 230, 235);
+    border-width: 100%;
+}
+.contact-sub-container h2, h1 {
+    margin-bottom: 10px;
+}
+.social-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.social-section img {
+    width: 100px;
+}
+.contact-info {
+    line-height: 25px;
+}
