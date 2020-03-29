@@ -1,11 +1,16 @@
 import React from 'react';
 import './css/Member.css'
+import gsap from 'gsap';
 
 class Member extends React.Component {
     state = {
         name: "",
         email: "",
         popup: false
+    }
+
+    componentDidMount = () => {
+        gsap.from(".member-container", {opacity: 0,  duration: 1, y: -50})
     }
 
     handleChange = (e) => {
