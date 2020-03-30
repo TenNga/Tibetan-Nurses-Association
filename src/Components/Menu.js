@@ -6,7 +6,7 @@ const menu = () => {
 
     const burgerOnClickHandler=()=>{
         //I can make this class component and use state to toggle clicks
-        if(!document.querySelector(".menu-ls").style.display)
+        if(!document.querySelector(".menu-ls").style.display & window.screen.width < 600)
             document.querySelector(".menu-ls").style.display = "block";
         else
         document.querySelector(".menu-ls").style.display = "";
@@ -21,12 +21,12 @@ const menu = () => {
         </div>
         
         <ul className="menu-ls">
-            <Link to={"/"} ><li>Home</li> </Link>
-            <Link to={"/about"} ><li>About Us</li> </Link>
-            <Link to={"/events"} ><li>Events</li> </Link>
-            <Link to={"/educational"} ><li>Educational</li> </Link>
-            <Link to={"/member"} ><li>Member</li> </Link>
-            <Link to={"/contact"} ><li>Contact</li> </Link>
+            <Link to={"/"} ><li onClick={burgerOnClickHandler}>Home</li> </Link>
+            <Link to={"/about"} ><li onClick={burgerOnClickHandler}>About Us</li> </Link>
+            <Link to={"/events"} ><li onClick={burgerOnClickHandler}>Events</li> </Link>
+            <Link to={"/educational"} ><li onClick={burgerOnClickHandler}>Educational</li> </Link>
+            <Link to={"/member"} ><li onClick={burgerOnClickHandler}>Member</li> </Link>
+            <Link to={"/contact"} ><li onClick={burgerOnClickHandler}>Contact</li> </Link>
         </ul>
 
         </>

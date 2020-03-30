@@ -13,7 +13,7 @@ import Contact from './Contact';
 
 const MainContainer = () => {
     return(
-        <div>
+        <div className="main-container">
             <div className="main-middle-container">
                 <Switch>
                     <Route path="/about" component={AboutUs} />
