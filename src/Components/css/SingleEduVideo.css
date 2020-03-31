@@ -1,4 +1,7 @@
+.single-video-container {
+    margin: 30px 10px 0px 10px;
 
+}
 .single-video-container img {
     object-fit: contain;
     width: 150px;
@@ -7,4 +10,10 @@
 .single-video-container #title {
     color: rgb(80, 107, 190);
     text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+    .single-video-container {
+        margin: 0px;
+    }
 }
