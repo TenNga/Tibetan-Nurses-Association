@@ -4,9 +4,11 @@ import EventContainer from './EventContainer';
 import './css/Event.css';
 
 
-const Event = () => {
-
-    const eventData2019 = [
+class Event extends React.Component {
+    
+    
+    render() {
+        const eventData2019 = [
         {
             img: "event/first_aid.png",
             title: "First Aid Station at summer camp",
@@ -77,13 +79,15 @@ const Event = () => {
             description: "Mother's Day celebration with one and only Ama Jestun Pema la. Blessed!!!! Health teaching done on 7 different health topics: Cardiac health, Breast Cancer, Breast self examination, UTI, Postpartum depression, hepatitis and Basic health assessment. Thanks to all volunteers for this wonderful and great program organized by TWA NY and NJ."
         }
     ]
-    return(
-        <div className="event-container">
-                <EventContainer eventYear={"2019"} eventData={eventData2019} />
-                <EventContainer eventYear={"2017"} eventData={eventData2017} />
-        </div>
-        
-    )
+        return(
+            <div className="event-container">
+                
+                    <EventContainer className="event-category" eventYear={"2019"} eventData={eventData2019} />
+                    <EventContainer className="event-category" eventYear={"2017"} eventData={eventData2017} />
+            </div>
+            
+        )
+    }
 }
 
 export default Event;
