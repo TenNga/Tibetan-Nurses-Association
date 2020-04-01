@@ -10,7 +10,7 @@
 .sub-container img {
     margin: 0px 20px;
     box-shadow: 1px 1px 5px #3D4C7A, -0.5px -0.5px 5px #3D4C7A;
-    object-fit: contain;
+    object-fit: cover;
     width: 400px;
 }
 .welcome-header {
