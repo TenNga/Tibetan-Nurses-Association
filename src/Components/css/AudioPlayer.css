@@ -1,8 +1,22 @@
 .audio-player {
-    background-color: rgb(233, 231, 231);
+    background-color: rgb(225, 224, 224);
     margin: 0px 20vw;
-    border-radius: 10px;
     font-family: 'Rubik';
+}
+.control-container {
+    display: flex;
+    justify-content: space-around;
+}
+.control {
+    display: flex;
+    margin: 0px 10px;
+    justify-content: space-around;
+}
+.audio-player img {
+    height: 55px;
+    width: auto;
+    border-radius: 30px 0px 0px 30px;
+    margin: 30px 0px;
 }
 .player-header {
     font-size: 24px;
@@ -13,14 +27,19 @@
 }
 audio {
     margin: 30px 10px;
-    width: 400px;
-    border-radius: 30px;
-    border: 2px solid rgb(124, 120, 172);
+    min-width: 320px;
+    max-width: 360px;
+    border-radius: 0px 30px 30px 0px;
+    background-color: rgb(245, 244, 244);
 }
 
 @media only screen and (max-width: 600px) {
     .audio-player {
         margin: 10px;
+    }
+
+    .audio-player img {
+        display: none;
     }
 
     audio {
